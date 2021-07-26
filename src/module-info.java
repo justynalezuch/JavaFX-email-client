@@ -4,6 +4,7 @@ module FirstJavaFX {
     requires javafx.graphics;
     requires javafx.web;
 
-    opens com.test;
-    opens com.test.view;
+    opens com.emailClient;
+    opens com.emailClient.view;
+    opens com.emailClient.controller;
 }
