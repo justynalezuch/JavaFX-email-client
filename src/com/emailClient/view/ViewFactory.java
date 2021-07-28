@@ -88,6 +88,9 @@ public class ViewFactory {
     }
 
     public void updateStyles() {
-
+        for (Stage stage: activeStages) {
+            Scene scene = stage.getScene();
+            // handle the css
+        }
     }
 }
